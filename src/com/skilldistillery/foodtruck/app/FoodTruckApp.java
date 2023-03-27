@@ -35,7 +35,7 @@ public class FoodTruckApp {
 					"What is the name of the Food Truck you would like to rate? \nOr enter quit to proceed to the menu.");
 			String name = kb.nextLine();
 			if ("quit".equals(name.toLowerCase())) {
-				System.out.println("Thank you for your submissions.");
+				System.out.println("Thank you for your submissions : Proceeding to menu");
 				break;
 			}
 			System.out.println("What type of food do they serve?");
